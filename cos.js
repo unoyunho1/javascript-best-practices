@@ -1,6 +1,6 @@
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
-console.log(typeof typeof 1);
-var pattern = {};
+const lastElement = arr => arr[arr.length - 1];
+console.log( "A" - "B" + "2");
 const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
-const value = ( 5 < 7 ) ? "True" : "False" ;
+const isArray = (arr) => Array.isArray(arr);
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
