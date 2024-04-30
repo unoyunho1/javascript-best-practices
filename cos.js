@@ -1,3 +1,2 @@
-const maxNumber = arr => Math.max(...arr);
-console.log(false === '0');
-const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
+var arr2 = arr1.reverse();
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
