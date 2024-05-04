@@ -1,1 +1,1 @@
-const intermediateAppPath = path.join(buildOutputPath, 'app');
+const removeDuplicates = (arr) => [...new Set(arr)];
