@@ -1,2 +1,3 @@
-const added = [0, 1, 2, 3, 4].map((item) => item + 1);
-const arrayContains = (arr, element) => arr.includes(element);
+const results = await Promise.all(resultingPromises);
+const lastElement = arr => arr[arr.length - 1];
+const repositoryRootPath = path.resolve(__dirname, '..');
