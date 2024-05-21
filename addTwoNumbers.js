@@ -1,2 +1,1 @@
-const getRandomBoolean = () => Math.random() >= 0.5;
-const updated = numbers.filter(element => element > 6);
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
