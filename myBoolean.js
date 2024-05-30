@@ -1,2 +1,3 @@
-console.log(1 +  +"2" + "2");
-const merge = (a, b) => [...a, ...b];
+var arr1 = "john".split('');
+const currentDate = () => new Date().toLocaleDateString('en-US');
+const isArray = (arr) => Array.isArray(arr);
