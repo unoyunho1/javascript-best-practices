@@ -1,2 +1,3 @@
-const isEven = (num) => num % 2 === 0;
-const isWeekday = (date) => date.getDay() % 6 !== 0;
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const results = await Promise.all(resultingPromises);
