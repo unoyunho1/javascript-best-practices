@@ -1,2 +1,3 @@
-const randomBoolean = () => Math.random() >= 0.5;
-[foo, bar] = [bar, foo];
+const isArray = (arr) => Array.isArray(arr);
+console.log("1 && 2 = "+(1 && 2));
+const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
