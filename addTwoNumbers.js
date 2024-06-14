@@ -1,1 +1,1 @@
-const flattenedArray = arr => [].concat(...arr);
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
