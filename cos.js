@@ -1,3 +1,3 @@
-const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
-console.log("1 || 2 = "+(1 || 2));
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+console.log( "A" - "B" + 2);
+const executableName = getExecutableName(channel, appName);
+console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
