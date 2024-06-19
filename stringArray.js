@@ -1,2 +1,1 @@
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-const merge = (a, b) => [...a, ...b];
+const symbolsPath = path.join(buildOutputPath, 'symbols');
