@@ -1,1 +1,1 @@
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const apmRootPath = path.join(repositoryRootPath, 'apm');
