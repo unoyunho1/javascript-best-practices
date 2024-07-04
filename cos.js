@@ -1,1 +1,2 @@
-const isEmptyArray = arr => !arr.length;
+var arr2 = arr1.reverse();
+const removeDuplicates = (arr) => [...new Set(arr)];
