@@ -1,2 +1,2 @@
-var arr2 = arr1.reverse();
-const removeDuplicates = (arr) => [...new Set(arr)];
+const isWeekday = (date) => date.getDay() % 6 !== 0;
+const symbolsPath = path.join(buildOutputPath, 'symbols');
