@@ -1,2 +1,2 @@
-const stringReverse = str => str.split("").reverse().join("");
-const resultingPromises = urls.map((url) => makHttpRequest(url));
+console.log(false == '0');
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
