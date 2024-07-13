@@ -1,3 +1,3 @@
-const results = await Promise.all(resultingPromises);
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
-const lastElement = arr => arr[arr.length - 1];
+var arr1 = "john".split('');
+const timeFromDate = date => date.toTimeString().slice(0, 8);
+const repositoryRootPath = path.resolve(__dirname, '..');
