@@ -1,2 +1,1 @@
-const merge = [...new Set([...a, ...b])];
-console.log( "A" - "B" + "2");
+const isArray = (arr) => Array.isArray(arr);
