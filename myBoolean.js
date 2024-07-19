@@ -1,3 +1,2 @@
-var arr1 = "john".split('');
-const timeFromDate = date => date.toTimeString().slice(0, 8);
-const repositoryRootPath = path.resolve(__dirname, '..');
+[foo, bar] = [bar, foo];
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
