@@ -1,2 +1,2 @@
-const isArray = (arr) => Array.isArray(arr);
-console.log( "A" - "B" + 2);
+const timeFromDate = date => date.toTimeString().slice(0, 8);
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
