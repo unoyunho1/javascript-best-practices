@@ -1,3 +1,2 @@
-console.log(typeof typeof 1);
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
-console.log(false == '0');
+const goToTop = () => window.scrollTo(0, 0);
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
