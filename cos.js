@@ -1,2 +1,3 @@
-const timeFromDate = date => date.toTimeString().slice(0, 8);
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const merge = (a, b) => [...a, ...b];
