@@ -1,2 +1,1 @@
-const apmRootPath = path.join(repositoryRootPath, 'apm');
-const flattenedArray = arr => [].concat(...arr);
+console.log("1 || 2 = "+(1 || 2));
